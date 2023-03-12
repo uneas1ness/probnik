@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cotic.png" />
+    <None Remove="GmE3mA3vZSO0dtHaClNvStGPrAjfeXn3fyiKmUDU8GU.webp" />
+    <None Remove="kotic.webp" />
+    <None Remove="maxresdefault.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cotic.png" />
+    <Resource Include="GmE3mA3vZSO0dtHaClNvStGPrAjfeXn3fyiKmUDU8GU.webp" />
+    <Resource Include="kotic.webp" />
+    <Resource Include="maxresdefault.jpg" />
+  </ItemGroup>
+
+</Project>
